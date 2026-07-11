@@ -79,4 +79,62 @@ ElectroDSL is:
 
 A defined syntax for describing electrical systems.
 
-Example:
+Example:.edsl
+
+
+Example: motor-starter.edsl
+
+Files are:
+
+- UTF-8 encoded
+- Plain text
+- Human readable
+- Suitable for version control
+
+---
+
+# 10. Future Ecosystem
+
+The ElectroDSL ecosystem may include:
+
+ElectroDSL
+
+├── Specification
+├── Parser
+├── Validator
+├── Renderer
+├── CLI Tools
+├── VS Code Extension
+├── Reference Editor
+├── Symbol Libraries
+└── AI Tools
+
+
+---
+
+# 11. Project Status
+
+Current version:
+ElectroDSL v0.1 Draft
+
+
+This version focuses on defining the foundation of the language.
+
+Future versions will introduce:
+
+- Formal grammar
+- Parser implementations
+- Rendering standards
+- Development tools
+- Community extensions
+
+---
+
+# 12. Long-Term Goal
+
+The long-term goal of ElectroDSL is to enable electrical engineers and software systems to communicate using a shared, open language.
+
+ElectroDSL aims to become:
+
+> The modern, AI-friendly, open electrical schematic language.
+
