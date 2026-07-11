@@ -73,13 +73,161 @@ ElectroDSL files should become a common exchange format between engineers, appli
 
 # 4. What ElectroDSL Is
 
-ElectroDSL is:
+ElectroDSL is: 
 
 ## A Language
 
 A defined syntax for describing electrical systems.
 
-Example:.edsl
+Example:
+COMPONENT Q1 : BREAKER
+COMPONENT M1 : MOTOR
+CONNECT Q1.OUT -> M1.IN
+
+---
+
+## An Exchange Format
+
+Different applications can exchange designs using:
+example.edsl
+
+
+---
+
+## An AI-Friendly Representation
+
+AI systems can generate, understand, and modify electrical designs using ElectroDSL.
+
+Example:
+
+User:
+
+"Create a three-phase motor starter circuit."
+
+AI:
+
+Generates valid ElectroDSL code.
+
+---
+
+# 5. What ElectroDSL Is Not
+
+ElectroDSL is not:
+
+- A replacement for CAD software
+- A drawing application
+- A simulation engine
+- A proprietary format
+- Controlled by one company
+
+The reference editor is only one implementation.
+
+The specification is the standard.
+
+---
+
+# 6. Design Approach
+
+ElectroDSL follows a semantic-first approach.
+
+The file describes:
+
+- Components
+- Connections
+- Electrical relationships
+- Properties
+- Design intent
+
+The renderer decides:
+
+- Symbol appearance
+- Layout
+- Colors
+- Page arrangement
+
+This allows the same design to be displayed in different ways.
+
+---
+
+# 7. Example Applications
+
+ElectroDSL can describe:
+
+## Building Electrical
+
+Examples:
+
+- Lighting systems
+- Distribution boards
+- Protection systems
+- Power outlets
+
+---
+
+## Industrial Systems
+
+Examples:
+
+- Motor control
+- PLC systems
+- Automation panels
+- Instrumentation
+
+---
+
+## Marine Electrical Systems
+
+Examples:
+
+- Ship power distribution
+- Navigation systems
+- Control circuits
+- Alarm systems
+
+---
+
+## Biomedical Engineering
+
+Examples:
+
+- Medical equipment connections
+- Laboratory systems
+- Hospital electrical infrastructure
+
+---
+
+# 8. Target Users
+
+ElectroDSL is designed for:
+
+## Electrical Engineers
+
+To exchange designs independent of software.
+
+## Software Developers
+
+To build tools around a standard format.
+
+## CAD Vendors
+
+To support open interoperability.
+
+## Researchers
+
+To develop AI and automation systems.
+
+## Educators
+
+To teach electrical concepts using transparent designs.
+
+---
+
+# 9. File Format
+
+ElectroDSL files use the extension:
+
+
+.edsl
 
 
 Example: motor-starter.edsl
