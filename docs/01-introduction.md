@@ -247,6 +247,7 @@ The ElectroDSL ecosystem may include:
 
 ElectroDSL Ecosystem
 
+```text
 ElectroDSL
 │
 ├── 📘 Specification
@@ -275,7 +276,7 @@ ElectroDSL
 │
 └── 🤖 AI Tools
     └── Generation and assistance
-
+```
 
 ---
 
