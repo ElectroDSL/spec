@@ -245,19 +245,36 @@ Files are:
 
 The ElectroDSL ecosystem may include:
 
-```text
+ElectroDSL Ecosystem
+
 ElectroDSL
 │
-├── Specification
-├── Parser
-├── Validator
-├── Renderer
-├── CLI Tools
-├── VS Code Extension
-├── Reference Editor
-├── Symbol Libraries
-└── AI Tools
-```
+├── 📘 Specification
+│   └── Language Standard
+│
+├── 🔍 Parser
+│   └── Converts .edsl text into AST
+│
+├── ✅ Validator
+│   └── Checks electrical correctness
+│
+├── 🎨 Renderer
+│   └── Generates schematic views
+│
+├── ⚙ CLI Tools
+│   └── Validate, format, convert
+│
+├── 💻 VS Code Extension
+│   └── Editing support
+│
+├── 🌐 Reference Editor
+│   └── Official implementation
+│
+├── 🔣 Symbol Libraries
+│   └── IEC, ANSI, Marine, Medical
+│
+└── 🤖 AI Tools
+    └── Generation and assistance
 
 
 ---
