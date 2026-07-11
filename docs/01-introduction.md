@@ -245,8 +245,9 @@ Files are:
 
 The ElectroDSL ecosystem may include:
 
+```text
 ElectroDSL
-
+│
 ├── Specification
 ├── Parser
 ├── Validator
@@ -256,6 +257,7 @@ ElectroDSL
 ├── Reference Editor
 ├── Symbol Libraries
 └── AI Tools
+```
 
 
 ---
