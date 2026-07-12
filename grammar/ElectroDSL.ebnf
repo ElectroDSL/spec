@@ -1,1 +1,30 @@
-(* ElectroDSL Grammar *)
+document
+    = version project ;
+
+version
+    = "EDSL" number ;
+
+project
+    = "PROJECT" string "{" projectBody "}" ;
+
+projectBody
+    = { circuit | property } ;
+
+circuit
+    = "CIRCUIT" string "{" circuitBody "}" ;
+
+circuitBody
+    = { component | connection | net } ;
+
+component
+    = "COMPONENT" identifier ":" identifier
+      "{" { property } "}" ;
+
+connection
+    = "CONNECT" endpoint "->" endpoint ;
+
+endpoint
+    = identifier "." identifier ;
+
+property
+    = identifier "=" value ;
